@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+#student-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.student:last-child {
+    border-bottom: none;
+}
+
+.student h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+.student p {
+    margin: 5px 0;
+}
